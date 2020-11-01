@@ -1,10 +1,10 @@
 # SITE CONFIGURATION
 title: GYULOG # your site title
 author: HyunGyu Kim# You :P
-description: > 
-  Development
-baseurl: "" 
-url: "https://gusrb3164.github.io/" 
+description: >
+  Dev, Daily Log
+baseurl: ""
+url: "https://gusrb3164.github.io/"
 
 # SEO PLUGIN
 social:
@@ -12,23 +12,21 @@ social:
   links:
     - https://github.com/gusrb3164
     - https://www.instagram.com/hyun__9yu
-    
+
 # THEME SETTINGS
 navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+  - { name: "Home", link: "/" }
+  - { name: "About", link: "/about" }
+  - { name: "Contact", link: "/contact" }
 tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best prac
-  
-
+  Dev, Daily Log
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: gusrb3164@gmail.com # email for form submission
 
-twitter_username:  # replace with your_twitter_username or comment to remove link from footer
-github_username:  gusrb3164# replace with your_github_username or comment to remove link from footer
-instagram_username: hyun__9yu# replace with your_instagram_username or comment to remove link from footer
+twitter_username: # replace with your_twitter_username or comment to remove link from footer
+github_username: gusrb3164 # replace with your_github_username or comment to remove link from footer
+instagram_username: hyun__9yu # replace with your_instagram_username or comment to remove link from footer
 
 disqus:
   shortname: gusrb3164 # to enable comments replace with your_disqus_shortname
@@ -54,7 +52,7 @@ exclude:
   - gulpfile.js
   - sleek.jpg
 
-include: ['_pages']
+include: ["_pages"]
 permalink: /:title/
 
 compress_html:
