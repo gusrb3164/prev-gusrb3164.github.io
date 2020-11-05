@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 title: GYULOG # your site title
-author: HyunGyu Kim# You :P
+author: blog.push_back("Dev, Daily");
 description: >
   Dev, Daily Log
 baseurl: ""
