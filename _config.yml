@@ -1,14 +1,14 @@
 # SITE CONFIGURATION
 title: GYULOG # your site title
-author: blog.push_back("Dev, Daily");
+author: HyunGyu-Kim
 description: >
-  Dev, Daily Log
+  blog.push_back("Dev, Daily")
 baseurl: ""
 url: "https://gusrb3164.github.io/"
 
 # SEO PLUGIN
 social:
-  name: HyunGyu Kim
+  name: HyunGyu-Kim
   links:
     - https://github.com/gusrb3164
     - https://www.instagram.com/hyun__9yu
@@ -19,7 +19,7 @@ navigation: # Navigation links
   - { name: "About", link: "/about" }
   - { name: "Contact", link: "/contact" }
 tagline: >
-  Dev, Daily Log :)
+  blog.push_back("Dev, Daily")
 hero_img: posts/sleek_lg.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: gusrb3164@gmail.com # email for form submission
