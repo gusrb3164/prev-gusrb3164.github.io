@@ -17,7 +17,7 @@ categories: [Programming, Algorithm]
 
 2차원 벽면은 n x n 크기 정사각 격자 형태이며, 각 격자는 1 x 1 크기입니다. 맨 처음 벽면은 비어있는 상태입니다. 기둥과 보는 격자선의 교차점에 걸치지 않고, 격자 칸의 각 변에 정확히 일치하도록 설치할 수 있습니다. 다음은 기둥과 보를 설치해 구조물을 만든 예시입니다.
 
-![capture](../assets/img/posts/kakao-ex1.JPG)
+![capture](../assets/img/posts/kakao-ex1.jpg)
 
 예를 들어, 위 그림은 다음 순서에 따라 구조물을 만들었습니다.
 
