@@ -6,8 +6,6 @@ layout: compress
 
 {% include head.html %}
 
-<body class="site">
-
 {% if site.google_tag_manager %}
 
 <!-- Google Tag Manager (noscript) -->
@@ -19,6 +17,7 @@ layout: compress
 
 {% include header.html %}
 
+<body class="site">
   {% if page.featured-img %}
   <div class="hero lazyload" data-bg="{{ site.url }}{{ site.baseurl }}/assets/img/posts/{{ page.featured-img }}.jpg">
   {% else %}
@@ -50,6 +49,13 @@ layout: compress
               {% else %}
                 {{ words | divided_by:180 }} mins
             {% endif %} read
+            <div style="text-align: center;">
+              <a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+                target="_blank">
+                <img
+                  src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
+              </a>
+            </div>
         </span>
       </p>
     </div>
