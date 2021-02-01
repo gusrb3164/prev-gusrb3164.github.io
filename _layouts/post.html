@@ -49,13 +49,14 @@ layout: compress
               {% else %}
                 {{ words | divided_by:180 }} mins
             {% endif %} read
-            <div style="text-align: center;">
+            <img style="width: inherit;" src="http://hits.dwyl.com/gusrb3164.github.io{{ page.url }}.svg" alt="hit count image"/>
+            <!-- <div style="text-align: center;">
               <a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
                 target="_blank">
                 <img
                   src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
               </a>
-            </div>
+            </div> -->
         </span>
       </p>
     </div>
