@@ -58,3 +58,11 @@ console.log(tmp.getName()); //hi 출력
 tmp 의 변수에 getName과 setName 함수가 담긴 객체가 저장되어있다.
 myName함수는 return 후에 소멸된 상태로 tmp.getName()을 호출하면 그대로 name 값을 가져올 수 있게 된다.
 이 상태에서 우리는 name 변수를 getName, setName을 통해서만 조작할 수 있는 private 상태로 관리할 수 있게 된다. 클로저는 이러한 이점을 가지고 있다.
+
+---
+
+## 참고 문서
+
+[MDN](https://developer.mozilla.org/ko/docs/Web/JavaScript/Closures)
+
+[생활코딩](https://opentutorials.org/course/743/6544)
