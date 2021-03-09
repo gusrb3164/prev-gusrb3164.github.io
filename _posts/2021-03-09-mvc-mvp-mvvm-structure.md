@@ -1,7 +1,7 @@
 ---
 layout: post
-title: MVC, MVP, MVVM 패턴 이해하기
-summary: 프론트엔드 구조에 자주 쓰이는 MVVM 패턴을 이해하자
+title: MVC, MVP, MVVM 패턴 개념과 특징 이해하기
+summary: MVC, MVP 그리고 프론트엔드 구조에 자주 쓰이는 MVVM 패턴을 이해하자
 featured-img: computer-science
 categories: [Programming, frontend]
 ---
